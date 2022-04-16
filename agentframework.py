@@ -2,7 +2,7 @@
 """
 Created on Mon Mar  7 16:34:43 2022
 
-@author: studeny 20516636
+@author: student 201566838
 """
 import random
 
