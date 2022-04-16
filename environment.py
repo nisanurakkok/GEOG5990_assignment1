@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar  7 16:34:43 2022
+
+@author: student 201566838
+"""
 import csv
 
 #function to read in for model.py as it reongises the data within the file rather than just a file 
