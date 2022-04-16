@@ -1,7 +1,7 @@
 # GEOG5990_assignment1
 This project is an Agent-Based Model.
 
-It showing agents in an envirvonmemt through matplotlib.ppyplot animation function. Overall the agents will be interating in the environemnt while engaing between each other and the environemnt. The model is set to start through Tkinter, which requires you 'run model' to start the model. A more detailed explantion of what the model is able to do as well as any improvements and issues can be found in the website file, in assignement 1 website or by opening the zip file. Addtionally  here are the links to the website that show additonal processes of what the model does. 
+It showing agents in an envirvonmemt through matplotlib.ppyplot animation function. Overall the agents will be interating in the environemnt while engaing between each other and the environemnt. The model is set to start through Tkinter, which requires you 'run model' to start the model. A more detailed explantion of what the model is able to do as well as any improvements and issues can be found in the website, or by downloading the zip file 'assignment 1' to download locally. Here are the links to the website that show additonal processes of what the model does. 
 http://dialogplus.leeds.ac.uk/geog5870/web15/assignments/python/homepage.html 
 http://dialogplus.leeds.ac.uk/geog5870/web15/assignments/python/assignment1.html To access these websites please use your dialogplus login and Leeds Univeristy VPN. 
 
