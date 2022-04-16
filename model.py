@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar  7 16:34:43 2022
+
+@author: student 201566838
+"""
 # importing modules
 import matplotlib.pyplot
 import agentframework #importing function defintions 
