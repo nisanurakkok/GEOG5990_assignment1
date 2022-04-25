@@ -5,5 +5,6 @@ It showing agents in an envirvonmemt through matplotlib.ppyplot animation functi
 http://dialogplus.leeds.ac.uk/geog5870/web15/assignments/python/homepage.html 
 http://dialogplus.leeds.ac.uk/geog5870/web15/assignments/python/assignment1.html To access these websites please use your dialogplus login and Leeds Univeristy VPN. 
 
-In files you can find the website codes and links, licensing and three different pyhton files that read in environment, define function in agentframework and that run the model.
+In files you can find the website codes and links, licensing and three different pyhton files that read in environment, define function in agentframework and that run the model. You can download the python and variable data locally through the file assignment1pythonfiles.
+
 This project was done under the University of Leeds, as a taught module, the author is Nisa Akkok, my Student ID is 201566838.
