@@ -1,0 +1,51 @@
+/* The sidepanel menu */
+.sidepanel {
+  height: 100%; 
+  width: 0;
+  position: fixed; 
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #D37506; 
+  overflow-x: hidden; /* Keeps text within the panel */
+  padding-top: 50px; 
+  transition: 0.5s; /* slide speed in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #1A3955;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Change navigation links color when hoovered over*/
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button to open  sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #D37506;
+  color: #1A3955;
+  padding: 10px 15px;
+  border: none;
+}
+/* colour of open button when hoovered over */
+.openbtn:hover {
+  color: white;
+}
