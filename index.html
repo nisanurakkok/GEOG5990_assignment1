@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!-- templete of the sidebar was from WS3 schools, https://www.w3schools.com/w3css/w3css_sidebar.asp -->
-<html  lang="en"> 
-
+<html lang="en">
 
 	<head>
 	<!-- Reading in other scripts and files -->
@@ -10,6 +9,7 @@
 		<title>Nisa's Homepage</title>
 		<script type="text/javascript" src="sidebar.js"></script>		
 		<link rel="stylesheet" media="all" href="main.css" type="text/css"> 
+		<link rel="stylesheet" media="all" href="mainassignment.css" type="text/css"> 
 		<link rel="stylesheet" media="all" href="sidebar.css" type="text/css"> 
 	</head>
 	
@@ -17,15 +17,7 @@
 			<div id="logo"> <!-- adding text in the header -->
 				<div class="center">Nisa's Homepage</div>  <!-- title -->
 				 <a href="https://www.linkedin.com/in/nisa-a-69192619b/" class="fa fa-linkedin"></a> <!-- links to other pages-->
-				<div class="sidepanel" id="mySidepanel">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-				<a href="https://nisanurakkok.github.io/index.html">About Me</a>
-				<a href="https://nisanurakkok.github.io/GEOG5990_assignment1.html">Assignment 1</a>
-				<a href="">Assignment 2</a>
-				<a href="">Contact</a>
 				</div>
-				<button class="openbtn" onclick="openNav()">&#9776; Index</button> <!-- Button image and reading function to open -->
-			</div>
 
 		</header>
 			
@@ -61,12 +53,48 @@
 				<p>As well as more information on my postponed boxing White Collar match event<a href =" https://www.facebook.com/KOTROxford/" > here.</a> </p>
 				
 			</div>
+		<div class="margin">
+		<H2> Environment and Agents </H2>
+			<p> The code, license and readme files can be found on Github <b><a href= "https://github.com/nisanurakkok/GEOG5990_assignment1.git"> here. </a> </b>  <!--adding link to github-->
+			The model that we have created shows an agent-based model. We are using Matplotlib pyplot animation to perform a model on a scatter plot graph,
+			with the backend Tkinter. The model is initializing an agent’s class through a file, which is done by using 
+			the python library beautiful soup 4 to pull the data out. This file can be altered where the locations on the scatter will automatically
+			change, figure 1 shows where the agents start and figure 2 shows the model complete and with all the agents have finished their interactions. 
+			The number of agents can also be altered through the code, currently the model is running 10.  	</p>
+			<img src="start.png" class="image1" >  <!--adding text-->
 	
+
+			<p>The environment for the model is being read in through a csv file. There are a total of three scripts 
+			that have performed this model animation. One being the script that reads in the environment where the agents 
+			interact with. Another defining the function and another to set the variables and plot. </p>
+			<p>The agents are able to move randomly, where thier movement is set to change by 1 x and y through the module random radiant, 
+			where they are able to 'eat' the environemnt and 'store' them through functions defined. Depending on how much environment they 
+			eat they can drop it back to the environment as‘waste’. They can share resources and information among them through 
+			‘share with neighbor’. The agents are also able to change aesthetic by changing size throughout, according to how much ‘store’ 
+			they have and finally change colour when they ‘die’ at 'age' 60. Agents 'age' were assigned to them randomly through random 
+			radiant with a age between 0-20, therefore some reaching 'die' before others and stopping the iteration therefore bringing the model 
+			to an end once all have died.</p>
+			<img src="model.png" class="image2"> <!-- adding image-->
+			<p> To run the model please click 'run model' and to look at any statistics like agents age, you can uncomment 
+			comments. Some comments show where we have tried to create and run a predator in the model however were unsuccessful. This is a great
+			place start for future improvements, where there can be a predator agent that is able to ‘eat’ an agent when it comes in close contact.
+			There can be other requirements for this such as the agent must have a store over 30, to be eaten. An additional improvement can
+			be to make genders of agents, where they reproduce creating additional 'baby' agents, which then grow and repeat the process. </p>
+			<p> <h4>A summary of what this code can do is: </h4>
+			<ul>-	Build an animated model </ul>
+			<ul>-	Build agents in a space </ul>
+			<ul>-	Randomized movement of the agents </ul>
+			<ul>-	Read in environmental data</ul>
+			<ul>-	Interact with each other and the environment </ul>
+			<ul>-	Set within a GUI</ul>
+			<ul>-	Initialised with data from the web </ul></p>
+			</div>
+			
 			
 		</main>	
 		<!-- footer of contact details -->
 		<footer>
-			<div> 
+			<div class= "footer"> 
 				<P> Tel: 01242 22091 | Email: gy21nna@leeds.ac.uk | Univeristy of Leeds, Woodhouse, Leeds, LS2 9JT</P>
 				<p>© Nisa Akkok, University of Leeds, 2022</P>
 			</div>
