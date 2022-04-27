@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+
+<html lang="english">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>agentframework module &#8212; Docs 1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="environment module" href="environment.html" />
+    <link rel="prev" title="Welcome to Docs&#39;s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-agentframework">
+<span id="agentframework-module"></span><h1>agentframework module<a class="headerlink" href="#module-agentframework" title="Permalink to this headline">¶</a></h1>
+<p>Created on Mon Mar  7 16:34:43 2022</p>
+<p>&#64;author: student 201566838</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="agentframework.Agent">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">agentframework.</span></span><span class="sig-name descname"><span class="pre">Agent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">environment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ia</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">agents</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="agentframework.Agent.aged">
+<span class="sig-name descname"><span class="pre">aged</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent.aged" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setting an age function, where age increases by 1 each iteration</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="agentframework.Agent.die">
+<span class="sig-name descname"><span class="pre">die</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent.die" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns</p>
+<p>Telling agents to stop where they are. The false statement is when they  no longer fulfill the Alive attruibute.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="agentframework.Agent.distance_between">
+<span class="sig-name descname"><span class="pre">distance_between</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">agent</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent.distance_between" title="Permalink to this definition">¶</a></dt>
+<dd><p>agent : int</p>
+<p>float
+calculating distance between self and other agents</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="agentframework.Agent.eat">
+<span class="sig-name descname"><span class="pre">eat</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent.eat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Agents will take from the environment and add to thier own store</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="agentframework.Agent.move">
+<span class="sig-name descname"><span class="pre">move</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setting the agents to move by 2 using the random.random genertor within the environment</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="agentframework.Agent.share_with_neighbours">
+<span class="sig-name descname"><span class="pre">share_with_neighbours</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">neighbourhood</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent.share_with_neighbours" title="Permalink to this definition">¶</a></dt>
+<dd><p>neighbourhood : float</p>
+<p>float 
+calcuating distance agents shares to equal the amount of store between the agents to have the same store with its neighbours</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="agentframework.Agent.waste">
+<span class="sig-name descname"><span class="pre">waste</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#agentframework.Agent.waste" title="Permalink to this definition">¶</a></dt>
+<dd><p>Once agents have meant the store requirement they will add to the environment which will allow thier store to decrease</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Docs</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">agentframework module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environment.html">environment module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Docs's documentation!</a></li>
+      <li>Next: <a href="environment.html" title="next chapter">environment module</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Nisa Akkok.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/agentframework.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
