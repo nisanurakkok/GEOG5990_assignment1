@@ -22,13 +22,13 @@ Within the agentframework, the code:
 -imports module, random 
 - sets variables 
 - defines multiple functions 
-  - waste
-  - str
-  - move
-  - die
-  - eat
-  - aged 
-  - distance between
+  - waste (Once the agents have reached a certain store level, they will add back to the environment and where they decrease thier store)
+  - str (defning the str how to print)
+  - move (setting the agents to move in x or y direction by 2 wihtin the environment)
+  - die (agents die where they are, when the false statement is when they  no longer fulfill the Alive attruibute.)
+  - eat (agents will eat the environment, and the environment will decrease)
+  - aged (the age is set through the random function at the start, the function then increases the age by one till it dies, where in the model its stop and die at 60)
+  - distance between ()
 
 
 This project was done under the University of Leeds, as a taught module, the author is Nisa Akkok, my Student ID is 201566838.
